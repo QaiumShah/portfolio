@@ -1,0 +1,248 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Yantramanav, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #484848;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+
+header, nav, footer, section, article, div{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    transition: all 2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+/*
+* Header 
+*/
+
+.header{
+    min-height: 56px;
+}
+
+.header_inner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_logo{
+    height: 40px;
+    margin-right: 1em;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+/** header navigation **/
+
+.nav{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.75em 0;
+}
+
+.nav_list{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_item{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align:center;
+    line-height: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #484848;
+    padding:0.25em;
+}
+
+.nav a:hover{
+    color:#166097;
+}
+
+/*
+* Main
+*/
+
+main{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile{
+    width: 100%;
+    position: relative;
+    background-image: url('./images/profilepicwithbackgroundmobile.png');
+    background-size: cover;
+    height: 280px;
+}
+
+.profile article{
+    box-sizing: border-box;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    height: 40%;
+    width: 100%;
+    color: #484848;
+}
+
+.profile article h2{
+    font-size: 18px;
+}
+
+
+/*
+* Container
+*/
+.container_left{
+    padding: 1em;
+}
+
+.introduction{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #484848;
+}
+
+.container_left_img img{
+    margin-top: 20px;
+}
+
+.container_right{
+    padding: 1em;
+}
+
+/*
+* Portfolio
+*/
+
+
+.portfolio_list li:nth-child(odd){
+    background-color: #fcfafaeb;
+}
+
+.portfolio_list li:nth-child(even){
+    background-color: #ffffff;
+}
+
+.portfolio_item{
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0.25em;
+}
+
+.portfolio_date{
+    margin-bottom: 5px;
+    color: #464646;
+    font-size:14px;
+}
+
+.portfolio_date::before{
+    content: "» ";
+    color: #166097;
+}
+
+.portfolio_description{
+    text-align: center;
+    margin-left: 5px;
+}
+
+.portfolio_description h4{
+    font-size: 16px;
+    color: #166097;
+}
+
+/*
+* My Work
+*/
+.my_work{
+    width: 100%;
+}
+
+.my_work .introduction,
+.work_item{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.work_item{
+    padding:20px 0;
+    margin-bottom: 20px;
+}
+
+/*
+* Contact Me
+*/
+.contacts{
+    background-image: url('./images/footerbg2.png');
+    max-width: 100%;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    padding: 1.75em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contacts h3{
+    padding: 10px 0;
+}
+
+/*
+* Footer
+*/
+
+footer{
+    text-align:center;
+    height: 50px;
+    padding:15px 10px;
+    margin: 20px 0;
+}
