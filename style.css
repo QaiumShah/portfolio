@@ -165,13 +165,13 @@ main{
 */
 
 
-.portfolio_list li:nth-child(odd){
+/* .portfolio_list li:nth-child(odd){
     background-color: #fcfafaeb;
 }
 
 .portfolio_list li:nth-child(even){
     background-color: #ffffff;
-}
+} */
 
 .portfolio_item{
     border-bottom: 1px solid #ddd;
@@ -182,6 +182,7 @@ main{
     margin-bottom: 5px;
     color: #464646;
     font-size:14px;
+    text-align: right;
 }
 
 .portfolio_date::before{
@@ -190,7 +191,7 @@ main{
 }
 
 .portfolio_description{
-    text-align: center;
+    text-align: left;
     margin-left: 5px;
 }
 
